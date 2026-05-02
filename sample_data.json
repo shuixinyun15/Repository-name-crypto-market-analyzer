@@ -1,0 +1,99 @@
+{
+  "report_metadata": {
+    "version": "V3",
+    "data_time": "2026-04-28 07:58 CST",
+    "data_time_utc": "2026-04-27 23:58 UTC",
+    "data_sources": ["Binance API", "CoinGecko"],
+    "filter": "usdt交易对",
+    "note": "Binance API 当前网络不可达，数据基于最近可用批次（2026-04-27 08:23 UTC）",
+    "total_coins": 77,
+    "total_volume_24h": "$4,092M"
+  },
+  "market_overview": {
+    "categories": {
+      "stablecoins": 7,
+      "major_coins": 4,
+      "mainboard_others": 42,
+      "eth_ecosystem": 17,
+      "meme_coins": 13
+    },
+    "technical_indicators": {
+      "above_ema60": "35/70 (50.0%)",
+      "above_ema120": "18/70 (25.7%)",
+      "rising_24h": "17/70 (24.3%)",
+      "falling_24h": "53/70 (75.7%)",
+      "top5_volume_ratio": "47.0%"
+    },
+    "core_judgment": "75.7%币种24h下跌，仅25.7%站上EMA120 → 市场整体偏空，短期加速下行，中期下行趋势明确"
+  },
+  "major_coins": [
+    {
+      "rank": 1,
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "price": 77633,
+      "change_24h": "-0.55%",
+      "volume_24h": 987.2,
+      "market_cap": 1555000000000,
+      "fdv": 1555000000000,
+      "ath": 126080,
+      "from_ath": "-38.4%",
+      "ema60": 73376,
+      "ema120": 77533,
+      "above_ema60": true,
+      "above_ema120": true,
+      "signal": "刚好踩住EMA120上方约$100，多空分界线，站上双线偏多但非常脆弱"
+    },
+    {
+      "rank": 2,
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "price": 2313,
+      "change_24h": "-0.74%",
+      "volume_24h": 575.0,
+      "market_cap": 280000000000,
+      "fdv": 280000000000,
+      "ath": 4946,
+      "from_ath": "-53.2%",
+      "ema60": 2247,
+      "ema120": 2452,
+      "above_ema60": true,
+      "above_ema120": false,
+      "signal": "距EMA120还差+5.9%，短期反弹、中期仍弱"
+    },
+    {
+      "rank": 3,
+      "symbol": "SOL",
+      "name": "Solana",
+      "price": 85.32,
+      "change_24h": "-1.42%",
+      "volume_24h": 218.4,
+      "market_cap": 49200000000,
+      "fdv": 53400000000,
+      "ath": 293.31,
+      "from_ath": "-70.9%",
+      "ema60": 88.01,
+      "ema120": 100.12,
+      "above_ema60": false,
+      "above_ema120": false,
+      "signal": "双线之下，最弱的大盘币"
+    },
+    {
+      "rank": 4,
+      "symbol": "BNB",
+      "name": "BNB",
+      "price": 626.87,
+      "change_24h": "-0.53%",
+      "volume_24h": 52.5,
+      "market_cap": 84500000000,
+      "fdv": 84500000000,
+      "ath": 1370,
+      "from_ath": "-54.3%",
+      "ema60": 639.90,
+      "ema120": 709.42,
+      "above_ema60": false,
+      "above_ema120": false,
+      "signal": "距EMA60仅-2%，接近支撑位测试"
+    }
+  ]
+}
